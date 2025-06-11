@@ -11,5 +11,5 @@ import Playgrounds
 #Playground {
     let session = LanguageModelSession(instructions: "Extract names from text as a list.")
     let text = "Alice and Bob went to the market with Charlie."
-    let response = try await session.respond(to: text, guide: Guide("Return only names"))
+    let response = try await session.respond(to: text)
 }
