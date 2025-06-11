@@ -23,8 +23,8 @@ import NaturalLanguage
         guard let language = recognizer.dominantLanguage else {
             return "Couldn't detect language."
         }
-
-        let response: ModelOutput
+        
+        let response: LanguageModelSession.Response<String>
         if language == .spanish {
             response = try await spanishSession.respond(to: Prompt(prompt))
         } else if language == .english {
