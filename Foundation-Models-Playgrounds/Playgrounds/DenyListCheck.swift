@@ -7,6 +7,7 @@
 
 import FoundationModels
 import Playgrounds
+import Foundation
 
 func verifyText(_ text: String) -> Bool {
     let denyList = ["unsafeTerm1", "unsafeTerm2"]
