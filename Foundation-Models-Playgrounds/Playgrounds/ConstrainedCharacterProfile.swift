@@ -12,15 +12,14 @@ import Playgrounds
 struct CharacterProfile {
     @Guide(description: "Character name (first and last)")
     let name: String
-    @Guide(.range(1...10), description: "Level between 1 and 10")
+    @Guide(description: "Level between 1 and 10", .range(1...10))
     let level: Int
-    @Guide(.count(3), description: "Exactly 3 special abilities")
+    @Guide(description: "Exactly 3 special abilities", .count(3))
     let abilities: [String]
 }
 
 #Playground {
-    let session = try await SystemLanguageModel.default.session()
+    let session = LanguageModelSession()
     let prompt = Prompt("Create a new fantasy RPG character with a unique skill set.")
     let character = try await session.respond(to: prompt, generating: CharacterProfile.self)
-    print("Name: \(character.name)\nLevel: \(character.level)\nAbilities: \(character.abilities.joined(separator: ", "))")
 }

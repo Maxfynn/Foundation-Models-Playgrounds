@@ -19,8 +19,7 @@ struct BookRecommendation {
 }
 
 #Playground {
-    let session = try await SystemLanguageModel.default.session()
+    let session = LanguageModelSession()
     let prompt = Prompt("Suggest a science fiction book for someone who liked Dune.")
-    let book: BookRecommendation = try await session.respond(to: prompt, generating: BookRecommendation.self)
-    print("**Book Title:** \(book.title)\n**Author:** \(book.author)\n**Genre:** \(book.genre)")
+    let book = try await session.respond(to: prompt, generating: BookRecommendation.self)
 }

@@ -9,7 +9,7 @@ import FoundationModels
 import Playgrounds
 
 #Playground {
-    let session = try await SystemLanguageModel.default.session()
+    let session = LanguageModelSession()
     let prompt = Prompt("Write a short poem about technology and nature.")
     let stream = session.streamResponse(to: prompt)
     for try await partial in stream {

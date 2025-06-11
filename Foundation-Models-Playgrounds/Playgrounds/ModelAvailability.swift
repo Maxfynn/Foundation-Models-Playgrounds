@@ -10,14 +10,16 @@ import Playgrounds
 
 #Playground {
     let model = SystemLanguageModel.default
-    switch model.state {
+    switch model.availability {
     case .available:
         print("Foundation model is ready to use.")
-    case .downloading:
-        print("\u231B The model is downloading... please wait.")
-    case .notSupported:
-        print("Foundation model not supported on this device.")
+    case .unavailable(.appleIntelligenceNotEnabled):
+        print("The Apple Intelligence feature is not enabled on this device.")
+    case .unavailable(.deviceNotEligible):
+        print("The device is not eligible for this model.")
+    case .unavailable(.modelNotReady):
+        print("The model is not ready.")
     @unknown default:
-        print("\u2642 Unknown state.")
+        print("Unknown state.")
     }
 }
