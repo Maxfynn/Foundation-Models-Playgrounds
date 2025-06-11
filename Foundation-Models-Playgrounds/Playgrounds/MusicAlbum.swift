@@ -20,6 +20,6 @@ struct MusicAlbum {
 
 #Playground {
     let session = LanguageModelSession()
-    let prompt = Prompt("Describe a popular rock album with at least 5 tracks")
+    let prompt = Prompt("Describe a popular hip-hop album with at least 5 tracks")
     let album = try await session.respond(to: prompt, generating: MusicAlbum.self)
 }

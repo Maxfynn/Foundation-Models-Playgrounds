@@ -10,7 +10,7 @@ import Playgrounds
 
 @Generable(description: "Weekly workout plan")
 struct WorkoutSchedule {
-    @Guide(description: "Day of the week", .values(["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]))
+    @Guide(description: "Day of the week", .anyOf(["Monday","Tuesday","Wednesday","Thursday","Friday","Saturday","Sunday"]))
     var day: String
     var exercises: [String]
 }

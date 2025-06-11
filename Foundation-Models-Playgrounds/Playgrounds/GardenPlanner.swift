@@ -11,7 +11,7 @@ import Playgrounds
 @Generable(description: "Information about a garden plant")
 struct Plant {
     var name: String
-    @Guide(description: "Flower color options", .values(["red", "yellow", "blue", "white"]))
+    @Guide(description: "Flower color options", .anyOf(["red", "yellow", "blue", "white"]))
     var color: String
     @Guide(description: "Watering frequency in days", .range(1...14))
     var wateringInterval: Int
