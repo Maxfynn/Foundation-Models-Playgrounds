@@ -30,9 +30,9 @@ struct WeatherTool: Tool {
 #Playground {
     let session = LanguageModelSession(
         tools: [WeatherTool(), StockPriceTool()],
-        instructions: "Use the weather or stock tool depending on who is speaking."
+        instructions: "Use the weather or stock tool depending on each speaker's intent."
     )
 
-    try await session.respond(to: "Alice: What's the weather in San Jose tomorrow?")
-    try await session.respond(to: "Bob: Give me the latest TSLA price.")
+    try await session.respond(to: "What's the weather in San Jose")
+    try await session.respond(to: "Give me the latest TSLA price")
 }
