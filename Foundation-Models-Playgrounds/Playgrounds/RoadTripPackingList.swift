@@ -9,7 +9,7 @@ import FoundationModels
 import Playgrounds
 
 @Generable(description: "Packing list for a trip")
-struct PackingList {
+struct PackingListRoad {
     @Guide(description: "Items to bring", .count(1...20))
     var items: [String]
 }
@@ -17,5 +17,5 @@ struct PackingList {
 #Playground {
     let session = LanguageModelSession()
     let prompt = Prompt("Create a packing checklist for a 5-day summer road trip")
-    let list = try await session.respond(to: prompt, generating: PackingList.self)
+    let list = try await session.respond(to: prompt, generating: PackingListRoad.self)
 }
