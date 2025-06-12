@@ -50,6 +50,7 @@ This repository contains a collection of Swift playgrounds demonstrating how to 
 - [`MarketingTagline.swift`](Foundation-Models-Playgrounds/Playgrounds/MarketingTagline.swift) – Suggests a catchy marketing tagline.
 - [`MedicalCase.swift`](Foundation-Models-Playgrounds/Playgrounds/MedicalCase.swift) – Simulates a multi-expert discussion of a patient case.
 - [`ModelAvailability.swift`](Foundation-Models-Playgrounds/Playgrounds/ModelAvailability.swift) – Checks the availability status of the system model.
+- [`MoonLandingDate.swift`](Foundation-Models-Playgrounds/Playgrounds/MoonLandingDate.swift) – Retrieves the date of the first moon landing.
 - [`MovieNightRecommendation.swift`](Foundation-Models-Playgrounds/Playgrounds/MovieNightRecommendation.swift) – Recommends a movie with a rating and reason.
 - [`MusicAlbum.swift`](Foundation-Models-Playgrounds/Playgrounds/MusicAlbum.swift) – Describes a music album using a generable structure.
 - [`MusicRecommendation.swift`](Foundation-Models-Playgrounds/Playgrounds/MusicRecommendation.swift) – Suggests music tracks or albums based on mood.
@@ -57,11 +58,14 @@ This repository contains a collection of Swift playgrounds demonstrating how to 
 - [`NestedGenerable.swift`](Foundation-Models-Playgrounds/Playgrounds/NestedGenerable.swift) – Demonstrates nested generable types.
 - [`NewsHeadlineTool.swift`](Foundation-Models-Playgrounds/Playgrounds/NewsHeadlineTool.swift) – Tool that generates a headline from news text.
 - [`NewsSummary.swift`](Foundation-Models-Playgrounds/Playgrounds/NewsSummary.swift) – Summarizes news articles concisely.
+- [`NextLeapDay.swift`](Foundation-Models-Playgrounds/Playgrounds/NextLeapDay.swift) – Shows the date of the next leap day.
 - [`NovelOutline.swift`](Foundation-Models-Playgrounds/Playgrounds/NovelOutline.swift) – Produces a brief outline for a novel idea.
 - [`NumericConversion.swift`](Foundation-Models-Playgrounds/Playgrounds/NumericConversion.swift) – Converts numbers between formats.
 - [`PitchDeckOutline.swift`](Foundation-Models-Playgrounds/Playgrounds/PitchDeckOutline.swift) – Provides a structured outline for a startup pitch deck.
 - [`ProductComparison.swift`](Foundation-Models-Playgrounds/Playgrounds/ProductComparison.swift) – Summarizes differences between two products in a table.
 - [`RecipeMaker.swift`](Foundation-Models-Playgrounds/Playgrounds/RecipeMaker.swift) – Generates a recipe based on user ingredients.
+- [`RegexEmail.swift`](Foundation-Models-Playgrounds/Playgrounds/RegexEmail.swift) – Generates a string that matches an email pattern.
+- [`RegexPhoneNumber.swift`](Foundation-Models-Playgrounds/Playgrounds/RegexPhoneNumber.swift) – Produces a phone number using a regex guide.
 - [`ResumeGenerator.swift`](Foundation-Models-Playgrounds/Playgrounds/ResumeGenerator.swift) – Builds a simple resume with highlights.
 - [`RiddleMaker.swift`](Foundation-Models-Playgrounds/Playgrounds/RiddleMaker.swift) – Creates a riddle for entertainment.
 - [`RoadTripPackingList.swift`](Foundation-Models-Playgrounds/Playgrounds/RoadTripPackingList.swift) – Generates a checklist for packing on a road trip.
