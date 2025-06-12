@@ -8,6 +8,7 @@ This repository contains a collection of Swift playgrounds demonstrating how to 
 - [`AutocompleteAssistant.swift`](Foundation-Models-Playgrounds/Playgrounds/AutocompleteAssistant.swift) – Produces text completions for short prompts.
 - [`Basic.swift`](Foundation-Models-Playgrounds/Playgrounds/Basic.swift) – A minimal example of chatting with a helpful assistant.
 - [`BasicChat.swift`](Foundation-Models-Playgrounds/Playgrounds/BasicChat.swift) – Shows a simple back-and-forth chat session.
+- [`BookSeriesSummary.swift`](Foundation-Models-Playgrounds/Playgrounds/BookSeriesSummary.swift) – Summarizes multiple books in a series.
 - [`BugReportSummarizer.swift`](Foundation-Models-Playgrounds/Playgrounds/BugReportSummarizer.swift) – Summarizes a set of software bug reports into key themes.
 - [`CalendarEventTool.swift`](Foundation-Models-Playgrounds/Playgrounds/CalendarEventTool.swift) – Demonstrates a tool that adds events to a calendar.
 - [`ChainedPrompts.swift`](Foundation-Models-Playgrounds/Playgrounds/ChainedPrompts.swift) – Uses multiple model calls to build a story from a headline.
@@ -35,6 +36,7 @@ This repository contains a collection of Swift playgrounds demonstrating how to 
 - [`DynamicTriviaOrDarkMode.swift`](Foundation-Models-Playgrounds/Playgrounds/DynamicTriviaOrDarkMode.swift) – Mixes a trivia score tool with the dark mode tool.
 - [`DynamicWeatherOrStock.swift`](Foundation-Models-Playgrounds/Playgrounds/DynamicWeatherOrStock.swift) – Uses weather or stock quote tools depending on request.
 - [`EmailComposition.swift`](Foundation-Models-Playgrounds/Playgrounds/EmailComposition.swift) – Generates a short email from a prompt.
+- [`EmailResponseDraft.swift`](Foundation-Models-Playgrounds/Playgrounds/EmailResponseDraft.swift) – Drafts a concise reply to an email.
 - [`EmojiTranslator.swift`](Foundation-Models-Playgrounds/Playgrounds/EmojiTranslator.swift) – Converts short sentences into strings of emojis.
 - [`ExplainConcept.swift`](Foundation-Models-Playgrounds/Playgrounds/ExplainConcept.swift) – Explains a technical concept in simple terms.
 - [`FashionRecommendation.swift`](Foundation-Models-Playgrounds/Playgrounds/FashionRecommendation.swift) – Suggests outfit combinations for an occasion or season.
@@ -94,9 +96,12 @@ This repository contains a collection of Swift playgrounds demonstrating how to 
 - [`TranscriptReview.swift`](Foundation-Models-Playgrounds/Playgrounds/TranscriptReview.swift) – Demonstrates capturing and reviewing a transcript.
 - [`TranscriptSummarizer.swift`](Foundation-Models-Playgrounds/Playgrounds/TranscriptSummarizer.swift) – Summarizes a session transcript at the end.
 - [`Translate.swift`](Foundation-Models-Playgrounds/Playgrounds/Translate.swift) – Translates text between languages.
+- [`TravelBudgetEstimator.swift`](Foundation-Models-Playgrounds/Playgrounds/TravelBudgetEstimator.swift) – Estimates travel costs for a trip.
 - [`TravelItinerary.swift`](Foundation-Models-Playgrounds/Playgrounds/TravelItinerary.swift) – Plans a travel itinerary for a destination.
 - [`TrendingTopics.swift`](Foundation-Models-Playgrounds/Playgrounds/TrendingTopics.swift) – Lists currently trending discussion topics.
+- [`TriviaQuestionWriter.swift`](Foundation-Models-Playgrounds/Playgrounds/TriviaQuestionWriter.swift) – Generates a trivia question with its answer.
 - [`TriviaScoreTool.swift`](Foundation-Models-Playgrounds/Playgrounds/TriviaScoreTool.swift) – Maintains a trivia score via a tool.
+- [`VacationPackingHelper.swift`](Foundation-Models-Playgrounds/Playgrounds/VacationPackingHelper.swift) – Suggests items to pack for a vacation.
 - [`VegetarianMenu.swift`](Foundation-Models-Playgrounds/Playgrounds/VegetarianMenu.swift) – Suggests a vegetarian dinner menu.
 - [`VocabularyQuizMaker.swift`](Foundation-Models-Playgrounds/Playgrounds/VocabularyQuizMaker.swift) – Generates multiple-choice vocabulary quizzes.
 - [`WeatherReport.swift`](Foundation-Models-Playgrounds/Playgrounds/WeatherReport.swift) – Generates a brief weather report.
