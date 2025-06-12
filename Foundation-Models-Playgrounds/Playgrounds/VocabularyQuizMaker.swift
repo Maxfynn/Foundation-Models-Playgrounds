@@ -11,13 +11,13 @@ import Playgrounds
 @Generable(description: "Multiple-choice vocabulary question")
 struct QuizQuestion {
     var question: String
-    @Guide(description: "Answer options", .count(4))
+    @Guide(description: "Answer options", .count(3))
     var choices: [String]
     var answer: String
 }
 
 #Playground {
     let session = LanguageModelSession()
-    let prompt = Prompt("Create a vocabulary quiz question using the word 'ephemeral'")
+    let prompt = Prompt("Create a vocabulary quiz question using the word: ephemeral")
     let quiz = try await session.respond(to: prompt, generating: QuizQuestion.self)
 }
