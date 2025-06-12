@@ -8,6 +8,7 @@ This repository contains a collection of Swift playgrounds demonstrating how to 
 - [`AutocompleteAssistant.swift`](Foundation-Models-Playgrounds/Playgrounds/AutocompleteAssistant.swift) – Produces text completions for short prompts.
 - [`Basic.swift`](Foundation-Models-Playgrounds/Playgrounds/Basic.swift) – A minimal example of chatting with a helpful assistant.
 - [`BasicChat.swift`](Foundation-Models-Playgrounds/Playgrounds/BasicChat.swift) – Shows a simple back-and-forth chat session.
+- [`BugReportSummarizer.swift`](Foundation-Models-Playgrounds/Playgrounds/BugReportSummarizer.swift) – Summarizes a set of software bug reports into key themes.
 - [`CalendarEventTool.swift`](Foundation-Models-Playgrounds/Playgrounds/CalendarEventTool.swift) – Demonstrates a tool that adds events to a calendar.
 - [`ChainedPrompts.swift`](Foundation-Models-Playgrounds/Playgrounds/ChainedPrompts.swift) – Uses multiple model calls to build a story from a headline.
 - [`CharacterChat.swift`](Foundation-Models-Playgrounds/Playgrounds/CharacterChat.swift) – Role-plays as a medieval knight in conversation.
@@ -17,6 +18,7 @@ This repository contains a collection of Swift playgrounds demonstrating how to 
 - [`CodeSummary.swift`](Foundation-Models-Playgrounds/Playgrounds/CodeSummary.swift) – Summarizes the purpose of a short code sample.
 - [`ConstrainedCharacterProfile.swift`](Foundation-Models-Playgrounds/Playgrounds/ConstrainedCharacterProfile.swift) – Generates a character profile with guides enforcing structure.
 - [`ContactLookupTool.swift`](Foundation-Models-Playgrounds/Playgrounds/ContactLookupTool.swift) – Implements a custom tool to search a contact list.
+- [`ContentPlanner.swift`](Foundation-Models-Playgrounds/Playgrounds/ContentPlanner.swift) – Outlines a weekly plan for social media posts based on a topic.
 - [`ConversationMemory.swift`](Foundation-Models-Playgrounds/Playgrounds/ConversationMemory.swift) – Shows how to retrieve the transcript of a session.
 - [`DailyMotivation.swift`](Foundation-Models-Playgrounds/Playgrounds/DailyMotivation.swift) – Provides a quick motivational quote.
 - [`DailyQuote.swift`](Foundation-Models-Playgrounds/Playgrounds/DailyQuote.swift) – Creates an inspirational quote using a generable structure.
@@ -31,7 +33,9 @@ This repository contains a collection of Swift playgrounds demonstrating how to 
 - [`DynamicTriviaOrDarkMode.swift`](Foundation-Models-Playgrounds/Playgrounds/DynamicTriviaOrDarkMode.swift) – Mixes a trivia score tool with the dark mode tool.
 - [`DynamicWeatherOrStock.swift`](Foundation-Models-Playgrounds/Playgrounds/DynamicWeatherOrStock.swift) – Uses weather or stock quote tools depending on request.
 - [`EmailComposition.swift`](Foundation-Models-Playgrounds/Playgrounds/EmailComposition.swift) – Generates a short email from a prompt.
+- [`EmojiTranslator.swift`](Foundation-Models-Playgrounds/Playgrounds/EmojiTranslator.swift) – Converts short sentences into strings of emojis.
 - [`ExplainConcept.swift`](Foundation-Models-Playgrounds/Playgrounds/ExplainConcept.swift) – Explains a technical concept in simple terms.
+- [`FashionRecommendation.swift`](Foundation-Models-Playgrounds/Playgrounds/FashionRecommendation.swift) – Suggests outfit combinations for an occasion or season.
 - [`FilmProduction.swift`](Foundation-Models-Playgrounds/Playgrounds/FilmProduction.swift) – Provides a short film production outline.
 - [`FinancialStrategy.swift`](Foundation-Models-Playgrounds/Playgrounds/FinancialStrategy.swift) – Offers financial planning suggestions.
 - [`FrenchTranslation.swift`](Foundation-Models-Playgrounds/Playgrounds/FrenchTranslation.swift) – Translates phrases into French.
@@ -48,15 +52,19 @@ This repository contains a collection of Swift playgrounds demonstrating how to 
 - [`ModelAvailability.swift`](Foundation-Models-Playgrounds/Playgrounds/ModelAvailability.swift) – Checks the availability status of the system model.
 - [`MovieNightRecommendation.swift`](Foundation-Models-Playgrounds/Playgrounds/MovieNightRecommendation.swift) – Recommends a movie with a rating and reason.
 - [`MusicAlbum.swift`](Foundation-Models-Playgrounds/Playgrounds/MusicAlbum.swift) – Describes a music album using a generable structure.
+- [`MusicRecommendation.swift`](Foundation-Models-Playgrounds/Playgrounds/MusicRecommendation.swift) – Suggests music tracks or albums based on mood.
 - [`NaturePoem.swift`](Foundation-Models-Playgrounds/Playgrounds/NaturePoem.swift) – Creates a short poem about nature.
 - [`NestedGenerable.swift`](Foundation-Models-Playgrounds/Playgrounds/NestedGenerable.swift) – Demonstrates nested generable types.
 - [`NewsHeadlineTool.swift`](Foundation-Models-Playgrounds/Playgrounds/NewsHeadlineTool.swift) – Tool that generates a headline from news text.
 - [`NewsSummary.swift`](Foundation-Models-Playgrounds/Playgrounds/NewsSummary.swift) – Summarizes news articles concisely.
 - [`NovelOutline.swift`](Foundation-Models-Playgrounds/Playgrounds/NovelOutline.swift) – Produces a brief outline for a novel idea.
 - [`NumericConversion.swift`](Foundation-Models-Playgrounds/Playgrounds/NumericConversion.swift) – Converts numbers between formats.
+- [`PitchDeckOutline.swift`](Foundation-Models-Playgrounds/Playgrounds/PitchDeckOutline.swift) – Provides a structured outline for a startup pitch deck.
+- [`ProductComparison.swift`](Foundation-Models-Playgrounds/Playgrounds/ProductComparison.swift) – Summarizes differences between two products in a table.
 - [`RecipeMaker.swift`](Foundation-Models-Playgrounds/Playgrounds/RecipeMaker.swift) – Generates a recipe based on user ingredients.
 - [`ResumeGenerator.swift`](Foundation-Models-Playgrounds/Playgrounds/ResumeGenerator.swift) – Builds a simple resume with highlights.
 - [`RiddleMaker.swift`](Foundation-Models-Playgrounds/Playgrounds/RiddleMaker.swift) – Creates a riddle for entertainment.
+- [`RoadTripPackingList.swift`](Foundation-Models-Playgrounds/Playgrounds/RoadTripPackingList.swift) – Generates a checklist for packing on a road trip.
 - [`SQLQueryAssistant.swift`](Foundation-Models-Playgrounds/Playgrounds/SQLQueryAssistant.swift) – Converts natural language into SQL queries.
 - [`SafetyGuidedGeneration.swift`](Foundation-Models-Playgrounds/Playgrounds/SafetyGuidedGeneration.swift) – Uses guardrails to filter unsafe output.
 - [`SafetyInputBoundaries.swift`](Foundation-Models-Playgrounds/Playgrounds/SafetyInputBoundaries.swift) – Adjusts prompts to keep them wholesome.
