@@ -64,8 +64,6 @@ This repository contains a collection of Swift playgrounds demonstrating how to 
 - [`PitchDeckOutline.swift`](Foundation-Models-Playgrounds/Playgrounds/PitchDeckOutline.swift) – Provides a structured outline for a startup pitch deck.
 - [`ProductComparison.swift`](Foundation-Models-Playgrounds/Playgrounds/ProductComparison.swift) – Summarizes differences between two products in a table.
 - [`RecipeMaker.swift`](Foundation-Models-Playgrounds/Playgrounds/RecipeMaker.swift) – Generates a recipe based on user ingredients.
-- [`RegexEmail.swift`](Foundation-Models-Playgrounds/Playgrounds/RegexEmail.swift) – Generates a string that matches an email pattern.
-- [`RegexPhoneNumber.swift`](Foundation-Models-Playgrounds/Playgrounds/RegexPhoneNumber.swift) – Produces a phone number using a regex guide.
 - [`ResumeGenerator.swift`](Foundation-Models-Playgrounds/Playgrounds/ResumeGenerator.swift) – Builds a simple resume with highlights.
 - [`RiddleMaker.swift`](Foundation-Models-Playgrounds/Playgrounds/RiddleMaker.swift) – Creates a riddle for entertainment.
 - [`RoadTripPackingList.swift`](Foundation-Models-Playgrounds/Playgrounds/RoadTripPackingList.swift) – Generates a checklist for packing on a road trip.
