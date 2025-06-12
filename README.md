@@ -15,7 +15,9 @@ This repository contains a collection of Swift playgrounds demonstrating how to 
 - [`ChatInstructions.swift`](Foundation-Models-Playgrounds/Playgrounds/ChatInstructions.swift) – Sets instructions dynamically for each chat run.
 - [`CodeCompletion.swift`](Foundation-Models-Playgrounds/Playgrounds/CodeCompletion.swift) – Generates code completions given a snippet.
 - [`CodeRefactor.swift`](Foundation-Models-Playgrounds/Playgrounds/CodeRefactor.swift) – Refactors code to improve clarity.
+- [`CodeReviewAssistant.swift`](Foundation-Models-Playgrounds/Playgrounds/CodeReviewAssistant.swift) – Offers feedback on Swift code to improve readability.
 - [`CodeSummary.swift`](Foundation-Models-Playgrounds/Playgrounds/CodeSummary.swift) – Summarizes the purpose of a short code sample.
+- [`CodingChallengeGenerator.swift`](Foundation-Models-Playgrounds/Playgrounds/CodingChallengeGenerator.swift) – Supplies short programming puzzles with hints.
 - [`ConstrainedCharacterProfile.swift`](Foundation-Models-Playgrounds/Playgrounds/ConstrainedCharacterProfile.swift) – Generates a character profile with guides enforcing structure.
 - [`ContactLookupTool.swift`](Foundation-Models-Playgrounds/Playgrounds/ContactLookupTool.swift) – Implements a custom tool to search a contact list.
 - [`ContentPlanner.swift`](Foundation-Models-Playgrounds/Playgrounds/ContentPlanner.swift) – Outlines a weekly plan for social media posts based on a topic.
@@ -44,10 +46,13 @@ This repository contains a collection of Swift playgrounds demonstrating how to 
 - [`GuardrailViolation.swift`](Foundation-Models-Playgrounds/Playgrounds/GuardrailViolation.swift) – Shows how guardrails handle unsafe requests.
 - [`Haiku.swift`](Foundation-Models-Playgrounds/Playgrounds/Haiku.swift) – Writes a short haiku about a topic.
 - [`HealthStepsTool.swift`](Foundation-Models-Playgrounds/Playgrounds/HealthStepsTool.swift) – Records a daily step count via a tool.
+- [`InterviewQuestionCoach.swift`](Foundation-Models-Playgrounds/Playgrounds/InterviewQuestionCoach.swift) – Produces sample interview questions with brief answers.
 - [`JSONGenerator.swift`](Foundation-Models-Playgrounds/Playgrounds/JSONGenerator.swift) – Produces structured JSON from a model response.
 - [`LanguageFlashCard.swift`](Foundation-Models-Playgrounds/Playgrounds/LanguageFlashCard.swift) – Generates flash cards for learning new words.
+- [`LanguageIdiomTutor.swift`](Foundation-Models-Playgrounds/Playgrounds/LanguageIdiomTutor.swift) – Explains idioms with usage examples.
 - [`LanguageTriage.swift`](Foundation-Models-Playgrounds/Playgrounds/LanguageTriage.swift) – Classifies user requests by topic.
 - [`MarketingTagline.swift`](Foundation-Models-Playgrounds/Playgrounds/MarketingTagline.swift) – Suggests a catchy marketing tagline.
+- [`MathProblemSolver.swift`](Foundation-Models-Playgrounds/Playgrounds/MathProblemSolver.swift) – Solves algebra problems step by step.
 - [`MedicalCase.swift`](Foundation-Models-Playgrounds/Playgrounds/MedicalCase.swift) – Simulates a multi-expert discussion of a patient case.
 - [`ModelAvailability.swift`](Foundation-Models-Playgrounds/Playgrounds/ModelAvailability.swift) – Checks the availability status of the system model.
 - [`MoonLandingDate.swift`](Foundation-Models-Playgrounds/Playgrounds/MoonLandingDate.swift) – Retrieves the date of the first moon landing.
@@ -93,6 +98,7 @@ This repository contains a collection of Swift playgrounds demonstrating how to 
 - [`TrendingTopics.swift`](Foundation-Models-Playgrounds/Playgrounds/TrendingTopics.swift) – Lists currently trending discussion topics.
 - [`TriviaScoreTool.swift`](Foundation-Models-Playgrounds/Playgrounds/TriviaScoreTool.swift) – Maintains a trivia score via a tool.
 - [`VegetarianMenu.swift`](Foundation-Models-Playgrounds/Playgrounds/VegetarianMenu.swift) – Suggests a vegetarian dinner menu.
+- [`VocabularyQuizMaker.swift`](Foundation-Models-Playgrounds/Playgrounds/VocabularyQuizMaker.swift) – Generates multiple-choice vocabulary quizzes.
 - [`WeatherReport.swift`](Foundation-Models-Playgrounds/Playgrounds/WeatherReport.swift) – Generates a brief weather report.
 - [`WorkoutPlan.swift`](Foundation-Models-Playgrounds/Playgrounds/WorkoutPlan.swift) – Creates a workout plan for the week.
 - [`WorkoutSchedule.swift`](Foundation-Models-Playgrounds/Playgrounds/WorkoutSchedule.swift) – Produces a workout schedule with dates.
