@@ -71,7 +71,7 @@ struct PlanetAtmosphereTool: Tool {
         instructions: "Use planet tools for astronomy questions"
     )
 
-    try await session.respond(to: "How far is Mars from the sun?")
-    try await session.respond(to: "What is Mars's surface gravity?")
-    try await session.respond(to: "Describe Mars's atmosphere")
+    let q1 = try await session.respond(to: "How far is Mars from the sun?")
+    let q2 = try await session.respond(to: "What is Mars's surface gravity?")
+    let q3 = try await session.respond(to: "Describe Mars's atmosphere")
 }

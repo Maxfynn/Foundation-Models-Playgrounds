@@ -71,7 +71,7 @@ struct CarDealerTool: Tool {
         instructions: "Use car tools to answer automobile questions"
     )
 
-    try await session.respond(to: "What is the price of the ExampleCar?")
-    try await session.respond(to: "How fuel efficient is the ExampleCar?")
-    try await session.respond(to: "Where can I buy the ExampleCar?")
+    let q1 = try await session.respond(to: "What is the starting price of the ExampleCar?")
+    let q2 = try await session.respond(to: "Fuel economy for ExampleCar?")
+    let q3 = try await session.respond(to: "Where can I buy the ExampleCar?")
 }

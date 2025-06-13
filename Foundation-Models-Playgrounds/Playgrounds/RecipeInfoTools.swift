@@ -71,7 +71,7 @@ struct RecipeCookTimeTool: Tool {
         instructions: "Use recipe tools for cooking advice"
     )
 
-    try await session.respond(to: "What ingredients are in chocolate cake?")
-    try await session.respond(to: "How do I make chocolate cake?")
-    try await session.respond(to: "How long does chocolate cake take to bake?")
+    let q1 = try await session.respond(to: "What ingredients are in chocolate cake?")
+    let q2 = try await session.respond(to: "How do I make chocolate cake?")
+    let q3 = try await session.respond(to: "How long does chocolate cake take to bake?")
 }

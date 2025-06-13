@@ -71,7 +71,7 @@ struct MovieCastTool: Tool {
         instructions: "Use movie tools for film trivia"
     )
 
-    try await session.respond(to: "What rating did Example Movie get?")
-    try await session.respond(to: "Who directed Example Movie?")
-    try await session.respond(to: "Who's in the cast of Example Movie?")
+    let q1 = try await session.respond(to: "What rating did Example Movie get?")
+    let q2 = try await session.respond(to: "Who directed Example Movie?")
+    let q3 = try await session.respond(to: "Who's in the cast of Example Movie?")
 }

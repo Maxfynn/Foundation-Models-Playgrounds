@@ -71,7 +71,7 @@ struct AnimalDietTool: Tool {
         instructions: "Use animal tools to answer wildlife questions"
     )
 
-    try await session.respond(to: "Give me a fact about pandas")
-    try await session.respond(to: "Where do pandas live?")
-    try await session.respond(to: "What do pandas eat?")
+    let q1 = try await session.respond(to: "Give me a fact about pandas")
+    let q2 = try await session.respond(to: "Where do pandas live?")
+    let q3 = try await session.respond(to: "What do pandas eat?")
 }

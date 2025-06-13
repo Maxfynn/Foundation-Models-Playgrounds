@@ -71,7 +71,7 @@ struct CityTimezoneTool: Tool {
         instructions: "Use the city info tools to answer questions"
     )
 
-    try await session.respond(to: "What is the population of San Jose?")
-    try await session.respond(to: "How big is San Jose?")
-    try await session.respond(to: "What timezone is San Jose in?")
+    let q1 = try await session.respond(to: "What is the population of San Jose?")
+    let q2 = try await session.respond(to: "How big is San Jose?")
+    let q3 = try await session.respond(to: "What timezone is San Jose in?")
 }

@@ -71,7 +71,7 @@ struct PlantSoilTool: Tool {
         instructions: "Use plant tools to offer gardening tips"
     )
 
-    try await session.respond(to: "How often should I water roses?")
-    try await session.respond(to: "How much sunlight do roses need?")
-    try await session.respond(to: "What soil is best for roses?")
+    let q1 = try await session.respond(to: "How often should I water roses?")
+    let q2 = try await session.respond(to: "How much sunlight do roses need?")
+    let q3 = try await session.respond(to: "What soil is best for roses?")
 }

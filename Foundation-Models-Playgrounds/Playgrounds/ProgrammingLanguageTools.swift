@@ -71,7 +71,7 @@ struct ProgrammingLanguageParadigmTool: Tool {
         instructions: "Use language tools for programming trivia"
     )
 
-    try await session.respond(to: "When was Swift created?")
-    try await session.respond(to: "Who created Swift?")
-    try await session.respond(to: "What paradigm is Swift primarily?")
+    let q1 = try await session.respond(to: "When was Swift created?")
+    let q2 = try await session.respond(to: "Who created Swift?")
+    let q3 = try await session.respond(to: "What paradigm is Swift primarily?")
 }
