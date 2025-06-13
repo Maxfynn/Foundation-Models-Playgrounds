@@ -124,3 +124,15 @@ This repository contains a collection of Swift playgrounds demonstrating how to 
 101. [`SafetyInstructions.swift`](Foundation-Models-Playgrounds/Playgrounds/SafetyInstructions.swift) – Provides strict safety instructions for the model.
 102. [`DataExtractor.swift`](Foundation-Models-Playgrounds/Playgrounds/DataExtractor.swift) – Extracts structured data from unstructured text.
 103. [`SentimentAnalyzer.swift`](Foundation-Models-Playgrounds/Playgrounds/SentimentAnalyzer.swift) – Determines the sentiment of provided text.
+
+### Miscellaneous Tool Demos
+104. [`CityInfoTools.swift`](Foundation-Models-Playgrounds/Playgrounds/CityInfoTools.swift) – Multi-tool sample for city population, area, and timezone.
+105. [`AnimalInfoTools.swift`](Foundation-Models-Playgrounds/Playgrounds/AnimalInfoTools.swift) – Multi-tool sample for animal facts, habitats, and diet.
+106. [`PlanetInfoTools.swift`](Foundation-Models-Playgrounds/Playgrounds/PlanetInfoTools.swift) – Multi-tool sample for planetary distances, gravity, and atmosphere.
+107. [`MovieInfoTools.swift`](Foundation-Models-Playgrounds/Playgrounds/MovieInfoTools.swift) – Multi-tool sample for movie rating, director, and cast.
+108. [`HistoricalEventTools.swift`](Foundation-Models-Playgrounds/Playgrounds/HistoricalEventTools.swift) – Multi-tool sample for event date, location, and key figure.
+109. [`PlantCareTools.swift`](Foundation-Models-Playgrounds/Playgrounds/PlantCareTools.swift) – Multi-tool sample for watering, sunlight, and soil needs.
+110. [`WorkoutInfoTools.swift`](Foundation-Models-Playgrounds/Playgrounds/WorkoutInfoTools.swift) – Multi-tool sample for calories, duration, and equipment.
+111. [`RecipeInfoTools.swift`](Foundation-Models-Playgrounds/Playgrounds/RecipeInfoTools.swift) – Multi-tool sample for ingredients, steps, and cook time.
+112. [`CarInfoTools.swift`](Foundation-Models-Playgrounds/Playgrounds/CarInfoTools.swift) – Multi-tool sample for price, fuel economy, and dealers.
+113. [`ProgrammingLanguageTools.swift`](Foundation-Models-Playgrounds/Playgrounds/ProgrammingLanguageTools.swift) – Multi-tool sample for creation year, creator, and paradigm.
